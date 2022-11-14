@@ -85,13 +85,13 @@ per function, but let's start with this one.
 
 ### Running the Tests
 
-To run the tests, run `npm test` in the terminal. The first output you'll see
+To run the tests, run `npm install` followed by `npm test` in the terminal. The first output you'll see
 will look like this:
 
 ```console
 $ npm test
 > java-script-intro-to-functions-lab@0.1.0 test
-> mocha --timeout 5000 --reporter 'json' > .results.json & mocha
+> mocha
 
 
 
